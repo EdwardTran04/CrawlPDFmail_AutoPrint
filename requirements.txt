@@ -1,0 +1,50 @@
+# Email PDF Downloader - Installation Commands
+# Copy and run these commands in your terminal/command prompt
+
+# ===========================================
+# REQUIRED DEPENDENCIES
+# ===========================================
+
+# Install core dependencies
+pip install schedule>=1.2.0
+pip install pytz>=2023.3
+
+# Alternative: Install all at once
+pip install schedule pytz
+
+# ===========================================
+# OPTIONAL DEPENDENCIES
+# ===========================================
+
+# For enhanced email processing
+pip install email-validator>=2.0.0
+
+# For better PDF validation
+pip install PyPDF2>=3.0.0
+
+# For development and testing
+pip install pytest>=7.0.0
+pip install black>=23.0.0
+pip install flake8>=6.0.0
+
+# ===========================================
+# INSTALLATION FROM REQUIREMENTS FILE
+# ===========================================
+
+# If you have a requirements.txt file, use:
+# pip install -r requirements.txt
+
+# ===========================================
+# VERIFICATION
+# ===========================================
+
+# Verify installation
+python -c "import schedule, pytz; print('Dependencies installed successfully!')"
+
+# ===========================================
+# NOTES
+# ===========================================
+
+# Standard library modules (no installation needed):
+# - os, re, json, time, socket, logging
+# - imaplib, email, datetime, pathlib

@@ -1,0 +1,616 @@
+2025-09-09 09:42:55,137 ERROR L\u1ed7i k\u1ebft n\u1ed1i/\u0111i\u1ec1u khi\u1ec3n IMAP trong job()
+Traceback (most recent call last):
+  File "c:\Scripts\crawl_acb_email_alert.py", line 267, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-09 09:43:52,241 ERROR L\u1ed7i k\u1ebft n\u1ed1i/\u0111i\u1ec1u khi\u1ec3n IMAP trong job()
+Traceback (most recent call last):
+  File "c:\Scripts\crawl_acb_email_alert.py", line 267, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-09 09:44:16,540 ERROR L\u1ed7i k\u1ebft n\u1ed1i/\u0111i\u1ec1u khi\u1ec3n IMAP trong job()
+Traceback (most recent call last):
+  File "c:\Scripts\crawl_acb_email_alert.py", line 267, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-09 09:44:31,472 ERROR L\u1ed7i k\u1ebft n\u1ed1i/\u0111i\u1ec1u khi\u1ec3n IMAP trong job()
+Traceback (most recent call last):
+  File "c:\Scripts\crawl_acb_email_alert.py", line 268, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-09 09:44:43,290 ERROR L\u1ed7i k\u1ebft n\u1ed1i/\u0111i\u1ec1u khi\u1ec3n IMAP trong job()
+Traceback (most recent call last):
+  File "c:\Scripts\crawl_acb_email_alert.py", line 269, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-09 09:46:38,795 ERROR L\u1ed7i k\u1ebft n\u1ed1i/\u0111i\u1ec1u khi\u1ec3n IMAP trong job()
+Traceback (most recent call last):
+  File "c:\Scripts\crawl_acb_email_alert.py", line 269, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-09 09:51:53,758 INFO \u0110ang fetch email ID: 46
+2025-09-09 09:51:55,266 INFO \u0110ang fetch email ID: 1055
+2025-09-09 09:51:56,679 INFO \u0110ang fetch email ID: 1142
+2025-09-09 09:51:57,685 INFO \u0110ang fetch email ID: 1143
+2025-09-09 09:51:58,684 INFO \u0110ang fetch email ID: 1144
+2025-09-09 09:51:59,685 INFO \u0110ang fetch email ID: 1145
+2025-09-09 09:52:00,679 INFO \u0110ang fetch email ID: 1148
+2025-09-09 09:52:01,674 INFO \u0110ang fetch email ID: 1149
+2025-09-09 09:52:02,675 INFO \u0110ang fetch email ID: 1150
+2025-09-09 09:52:28,525 ERROR L\u1ed7i k\u1ebft n\u1ed1i/\u0111i\u1ec1u khi\u1ec3n IMAP trong job()
+Traceback (most recent call last):
+  File "c:\Scripts\crawl_acb_email_alert.py", line 269, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-09 09:57:19,092 INFO \u0110ang fetch email ID: 1151
+2025-09-09 09:57:20,495 INFO \u0110ang fetch email ID: 1153
+2025-09-09 09:57:22,105 INFO \u0110ang fetch email ID: 1154
+2025-09-09 09:57:23,132 INFO \u0110ang fetch email ID: 1155
+2025-09-09 09:57:24,168 INFO \u0110ang fetch email ID: 1156
+2025-09-09 09:57:25,739 INFO \u0110ang fetch email ID: 1158
+2025-09-09 09:57:26,759 INFO \u0110ang fetch email ID: 1159
+2025-09-09 09:57:27,800 INFO \u0110ang fetch email ID: 1160
+2025-09-09 09:57:28,830 INFO \u0110ang fetch email ID: 1161
+2025-09-09 09:57:29,845 INFO \u0110ang fetch email ID: 1163
+2025-09-09 09:57:30,882 INFO \u0110ang fetch email ID: 1164
+2025-09-09 09:57:31,882 INFO \u0110ang fetch email ID: 1168
+2025-09-09 09:57:32,887 INFO \u0110ang fetch email ID: 1169
+2025-09-09 09:57:33,886 INFO \u0110ang fetch email ID: 1171
+2025-09-09 09:57:34,933 INFO \u0110ang fetch email ID: 1173
+2025-09-09 09:57:36,017 INFO \u0110ang fetch email ID: 1174
+2025-09-09 09:57:37,045 INFO \u0110ang fetch email ID: 1175
+2025-09-09 09:57:38,055 INFO \u0110ang fetch email ID: 1176
+2025-09-09 09:57:39,094 INFO \u0110ang fetch email ID: 1178
+2025-09-09 09:57:40,107 INFO \u0110ang fetch email ID: 1179
+2025-09-09 09:57:41,114 INFO \u0110ang fetch email ID: 1180
+2025-09-09 09:57:42,135 INFO \u0110ang fetch email ID: 1181
+2025-09-09 09:57:43,147 INFO \u0110ang fetch email ID: 1182
+2025-09-09 09:57:44,150 INFO \u0110ang fetch email ID: 1183
+2025-09-09 09:57:45,150 INFO \u0110ang fetch email ID: 1184
+2025-09-09 09:57:46,165 INFO \u0110ang fetch email ID: 1187
+2025-09-09 09:57:47,207 INFO \u0110ang fetch email ID: 1192
+2025-09-09 09:57:48,219 INFO \u0110ang fetch email ID: 1193
+2025-09-09 09:57:49,219 INFO \u0110ang fetch email ID: 1194
+2025-09-09 09:57:50,223 INFO \u0110ang fetch email ID: 1195
+2025-09-09 09:57:51,236 INFO \u0110ang fetch email ID: 1196
+2025-09-09 09:57:52,803 INFO \u0110ang fetch email ID: 1197
+2025-09-09 09:57:53,808 INFO \u0110ang fetch email ID: 1200
+2025-09-09 09:57:54,810 INFO \u0110ang fetch email ID: 1202
+2025-09-09 09:57:55,814 INFO \u0110ang fetch email ID: 1203
+2025-09-09 09:57:56,829 INFO \u0110ang fetch email ID: 1210
+2025-09-09 09:57:57,851 INFO \u0110ang fetch email ID: 1211
+2025-09-09 09:57:58,865 INFO \u0110ang fetch email ID: 1212
+2025-09-09 09:57:59,866 INFO \u0110ang fetch email ID: 1218
+2025-09-09 09:58:00,858 INFO \u0110ang fetch email ID: 1220
+2025-09-09 09:58:01,862 INFO \u0110ang fetch email ID: 1221
+2025-09-09 09:58:02,872 INFO \u0110ang fetch email ID: 1223
+2025-09-09 09:58:03,874 INFO \u0110ang fetch email ID: 1224
+2025-09-09 09:58:04,881 INFO \u0110ang fetch email ID: 1225
+2025-09-09 09:58:05,893 INFO \u0110ang fetch email ID: 1226
+2025-09-09 09:58:06,910 INFO \u0110ang fetch email ID: 1228
+2025-09-09 09:58:07,925 INFO \u0110ang fetch email ID: 1229
+2025-09-09 09:58:08,937 INFO \u0110ang fetch email ID: 1232
+2025-09-09 09:58:09,957 INFO \u0110ang fetch email ID: 1234
+2025-09-09 09:58:10,974 INFO \u0110ang fetch email ID: 1235
+2025-09-09 09:58:11,986 INFO \u0110ang fetch email ID: 1239
+2025-09-09 09:58:12,996 INFO \u0110ang fetch email ID: 1240
+2025-09-09 09:58:14,014 INFO \u0110ang fetch email ID: 1241
+2025-09-09 09:58:15,017 INFO \u0110ang fetch email ID: 1242
+2025-09-09 09:58:16,030 INFO \u0110ang fetch email ID: 1243
+2025-09-09 09:58:17,048 INFO \u0110ang fetch email ID: 1245
+2025-09-09 09:58:18,052 INFO \u0110ang fetch email ID: 1247
+2025-09-09 09:58:19,070 INFO \u0110ang fetch email ID: 1248
+2025-09-09 09:58:20,088 INFO \u0110ang fetch email ID: 1251
+2025-09-09 09:58:21,101 INFO \u0110ang fetch email ID: 1252
+2025-09-09 09:58:22,116 INFO \u0110ang fetch email ID: 1253
+2025-09-09 09:58:23,118 INFO \u0110ang fetch email ID: 1254
+2025-09-09 09:58:24,162 INFO \u0110ang fetch email ID: 1255
+2025-09-09 09:58:25,731 INFO \u0110ang fetch email ID: 1260
+2025-09-09 09:58:26,746 INFO \u0110ang fetch email ID: 1262
+2025-09-09 09:58:27,777 INFO \u0110ang fetch email ID: 1263
+2025-09-09 09:58:29,329 INFO \u0110ang fetch email ID: 1264
+2025-09-09 09:58:30,331 INFO \u0110ang fetch email ID: 1266
+2025-09-09 09:58:31,338 INFO \u0110ang fetch email ID: 1267
+2025-09-09 09:58:32,357 INFO \u0110ang fetch email ID: 1268
+2025-09-09 09:58:33,358 INFO \u0110ang fetch email ID: 1270
+2025-09-09 09:58:34,349 INFO \u0110ang fetch email ID: 1271
+2025-09-09 09:58:35,364 INFO \u0110ang fetch email ID: 1272
+2025-09-09 09:58:36,535 INFO \u0110ang fetch email ID: 1273
+2025-09-09 09:58:37,555 INFO \u0110ang fetch email ID: 1276
+2025-09-09 09:58:38,566 INFO \u0110ang fetch email ID: 1277
+2025-09-09 09:58:39,587 INFO \u0110ang fetch email ID: 1278
+2025-09-09 09:58:40,597 INFO \u0110ang fetch email ID: 1284
+2025-09-09 09:58:41,613 INFO \u0110ang fetch email ID: 1285
+2025-09-09 09:58:42,607 INFO \u0110ang fetch email ID: 1286
+2025-09-09 09:58:43,614 INFO \u0110ang fetch email ID: 1290
+2025-09-09 09:58:44,616 INFO \u0110ang fetch email ID: 1291
+2025-09-09 09:58:45,624 INFO \u0110ang fetch email ID: 1292
+2025-09-09 09:58:46,621 INFO \u0110ang fetch email ID: 1293
+2025-09-09 09:58:47,662 INFO \u0110ang fetch email ID: 1294
+2025-09-09 09:58:48,702 INFO \u0110ang fetch email ID: 1299
+2025-09-09 09:58:49,710 INFO \u0110ang fetch email ID: 1303
+2025-09-09 09:58:50,710 INFO \u0110ang fetch email ID: 1304
+2025-09-09 09:58:51,744 INFO \u0110ang fetch email ID: 1305
+2025-09-09 09:58:52,759 INFO \u0110ang fetch email ID: 1306
+2025-09-09 09:58:53,764 INFO \u0110ang fetch email ID: 1307
+2025-09-09 09:58:54,777 INFO \u0110ang fetch email ID: 1308
+2025-09-09 09:58:55,809 INFO \u0110ang fetch email ID: 1309
+2025-09-09 09:58:56,864 INFO \u0110ang fetch email ID: 1310
+2025-09-09 09:58:57,878 INFO \u0110ang fetch email ID: 1311
+2025-09-09 09:58:58,880 INFO \u0110ang fetch email ID: 1312
+2025-09-09 09:58:59,884 INFO \u0110ang fetch email ID: 1314
+2025-09-09 09:59:00,912 INFO \u0110ang fetch email ID: 1315
+2025-09-09 09:59:01,914 INFO \u0110ang fetch email ID: 1317
+2025-09-09 09:59:02,934 INFO \u0110ang fetch email ID: 1318
+2025-09-09 09:59:03,954 INFO \u0110ang fetch email ID: 1320
+2025-09-09 09:59:04,966 INFO \u0110ang fetch email ID: 1321
+2025-09-09 09:59:05,964 INFO \u0110ang fetch email ID: 1322
+2025-09-09 09:59:06,962 INFO \u0110ang fetch email ID: 1324
+2025-09-09 09:59:07,955 INFO \u0110ang fetch email ID: 1325
+2025-09-09 09:59:08,959 INFO \u0110ang fetch email ID: 1326
+2025-09-09 09:59:09,964 INFO \u0110ang fetch email ID: 1327
+2025-09-09 09:59:10,993 INFO \u0110ang fetch email ID: 1328
+2025-09-09 09:59:12,002 INFO \u0110ang fetch email ID: 1330
+2025-09-09 09:59:13,009 INFO \u0110ang fetch email ID: 1333
+2025-09-09 09:59:14,013 INFO \u0110ang fetch email ID: 1334
+2025-09-09 09:59:15,027 INFO \u0110ang fetch email ID: 1337
+2025-09-09 09:59:16,040 INFO \u0110ang fetch email ID: 1338
+2025-09-09 09:59:17,605 INFO \u0110ang fetch email ID: 1340
+2025-09-09 09:59:18,628 INFO \u0110ang fetch email ID: 1343
+2025-09-09 09:59:19,646 INFO \u0110ang fetch email ID: 1345
+2025-09-09 09:59:20,651 INFO \u0110ang fetch email ID: 1347
+2025-09-09 09:59:21,658 INFO \u0110ang fetch email ID: 1348
+2025-09-09 09:59:22,659 INFO \u0110ang fetch email ID: 1351
+2025-09-09 09:59:23,663 INFO \u0110ang fetch email ID: 1353
+2025-09-09 09:59:24,669 INFO \u0110ang fetch email ID: 1354
+2025-09-09 09:59:25,684 INFO \u0110ang fetch email ID: 1355
+2025-09-09 09:59:26,675 INFO \u0110ang fetch email ID: 1356
+2025-09-09 09:59:27,668 INFO \u0110ang fetch email ID: 1363
+2025-09-09 09:59:28,689 INFO \u0110ang fetch email ID: 1366
+2025-09-09 09:59:29,693 INFO \u0110ang fetch email ID: 1374
+2025-09-09 09:59:30,708 INFO \u0110ang fetch email ID: 1375
+2025-09-09 09:59:31,719 INFO \u0110ang fetch email ID: 1376
+2025-09-09 09:59:32,732 INFO \u0110ang fetch email ID: 1377
+2025-09-09 09:59:34,312 INFO \u0110ang fetch email ID: 1378
+2025-09-09 09:59:35,327 INFO \u0110ang fetch email ID: 1384
+2025-09-09 09:59:36,320 INFO \u0110ang fetch email ID: 1392
+2025-09-09 09:59:37,336 INFO \u0110ang fetch email ID: 1393
+2025-09-09 09:59:38,330 INFO \u0110ang fetch email ID: 1397
+2025-09-09 09:59:39,323 INFO \u0110ang fetch email ID: 1399
+2025-09-09 09:59:40,307 INFO \u0110ang fetch email ID: 1400
+2025-09-09 09:59:41,311 INFO \u0110ang fetch email ID: 1405
+2025-09-09 09:59:42,328 INFO \u0110ang fetch email ID: 1406
+2025-09-09 09:59:43,324 INFO \u0110ang fetch email ID: 1415
+2025-09-09 09:59:44,334 INFO \u0110ang fetch email ID: 1416
+2025-09-09 09:59:45,336 INFO \u0110ang fetch email ID: 1419
+2025-09-09 09:59:46,336 INFO \u0110ang fetch email ID: 1421
+2025-09-09 09:59:47,343 INFO \u0110ang fetch email ID: 1425
+2025-09-09 09:59:48,325 INFO \u0110ang fetch email ID: 1426
+2025-09-09 09:59:49,322 INFO \u0110ang fetch email ID: 1427
+2025-09-09 09:59:50,381 INFO \u0110ang fetch email ID: 1428
+2025-09-09 09:59:51,398 INFO \u0110ang fetch email ID: 1430
+2025-09-09 09:59:52,393 INFO \u0110ang fetch email ID: 1432
+2025-09-09 09:59:53,401 INFO \u0110ang fetch email ID: 1434
+2025-09-09 09:59:54,417 INFO \u0110ang fetch email ID: 1435
+2025-09-09 09:59:55,409 INFO \u0110ang fetch email ID: 1437
+2025-09-09 09:59:56,418 INFO \u0110ang fetch email ID: 1438
+2025-09-09 09:59:57,428 INFO \u0110ang fetch email ID: 1440
+2025-09-09 09:59:58,428 INFO \u0110ang fetch email ID: 1441
+2025-09-09 09:59:59,457 INFO \u0110ang fetch email ID: 1442
+2025-09-09 10:00:00,486 INFO \u0110ang fetch email ID: 1443
+2025-09-09 10:00:01,497 INFO \u0110ang fetch email ID: 1446
+2025-09-09 10:00:02,488 INFO \u0110ang fetch email ID: 1447
+2025-09-09 10:00:03,492 INFO \u0110ang fetch email ID: 1451
+2025-09-09 10:00:04,486 INFO \u0110ang fetch email ID: 1452
+2025-09-09 10:00:05,493 INFO \u0110ang fetch email ID: 1454
+2025-09-09 10:00:06,486 INFO \u0110ang fetch email ID: 1455
+2025-09-09 10:00:07,476 INFO \u0110ang fetch email ID: 1456
+2025-09-09 10:00:09,021 INFO \u0110ang fetch email ID: 1457
+2025-09-09 10:00:10,025 INFO \u0110ang fetch email ID: 1460
+2025-09-09 10:00:11,031 INFO \u0110ang fetch email ID: 1461
+2025-09-09 10:00:12,036 INFO \u0110ang fetch email ID: 1462
+2025-09-09 10:00:13,042 INFO \u0110ang fetch email ID: 1463
+2025-09-09 10:00:14,073 INFO \u0110ang fetch email ID: 1464
+2025-09-09 10:00:15,092 INFO \u0110ang fetch email ID: 1465
+2025-09-09 10:00:16,141 INFO \u0110ang fetch email ID: 1467
+2025-09-09 10:00:17,166 INFO \u0110ang fetch email ID: 1468
+2025-09-09 10:00:18,227 INFO \u0110ang fetch email ID: 1469
+2025-09-09 10:00:19,264 INFO \u0110ang fetch email ID: 1473
+2025-09-09 10:00:20,300 INFO \u0110ang fetch email ID: 1474
+2025-09-09 10:00:21,306 INFO \u0110ang fetch email ID: 1475
+2025-09-09 10:00:22,309 INFO \u0110ang fetch email ID: 1478
+2025-09-09 10:00:23,331 INFO \u0110ang fetch email ID: 1480
+2025-09-09 10:00:24,347 INFO \u0110ang fetch email ID: 1484
+2025-09-09 10:00:25,371 INFO \u0110ang fetch email ID: 1486
+2025-09-09 10:00:26,439 INFO \u0110ang fetch email ID: 1488
+2025-09-09 10:00:27,466 INFO \u0110ang fetch email ID: 1489
+2025-09-09 10:00:28,500 INFO \u0110ang fetch email ID: 1491
+2025-09-09 10:00:29,523 INFO \u0110ang fetch email ID: 1492
+2025-09-09 10:00:30,547 INFO \u0110ang fetch email ID: 1493
+2025-09-09 10:00:31,577 INFO \u0110ang fetch email ID: 1494
+2025-09-09 10:00:32,614 INFO \u0110ang fetch email ID: 1495
+2025-09-09 10:00:33,622 INFO \u0110ang fetch email ID: 1496
+2025-09-09 10:00:34,650 INFO \u0110ang fetch email ID: 1497
+2025-09-09 10:00:35,699 INFO \u0110ang fetch email ID: 1498
+2025-09-09 10:00:36,738 INFO \u0110ang fetch email ID: 1499
+2025-09-09 10:00:37,740 INFO \u0110ang fetch email ID: 1500
+2025-09-09 10:00:38,786 INFO \u0110ang fetch email ID: 1501
+2025-09-09 10:00:39,806 INFO \u0110ang fetch email ID: 1502
+2025-09-09 10:00:40,826 INFO \u0110ang fetch email ID: 1503
+2025-09-09 10:01:03,808 INFO \u0110ang fetch email ID: 1504
+2025-09-09 10:01:05,082 INFO \u0110ang fetch email ID: 1505
+2025-09-09 10:01:06,289 INFO \u0110ang fetch email ID: 1507
+2025-09-09 10:01:07,356 INFO \u0110ang fetch email ID: 1510
+2025-09-09 10:01:08,340 INFO \u0110ang fetch email ID: 1513
+2025-09-09 10:01:09,326 INFO \u0110ang fetch email ID: 1514
+2025-09-09 10:01:10,318 INFO \u0110ang fetch email ID: 1515
+2025-09-09 10:01:11,307 INFO \u0110ang fetch email ID: 1518
+2025-09-09 10:01:12,301 INFO \u0110ang fetch email ID: 1519
+2025-09-09 10:01:13,303 INFO \u0110ang fetch email ID: 1520
+2025-09-09 10:01:14,298 INFO \u0110ang fetch email ID: 1524
+2025-09-09 10:01:15,284 INFO \u0110ang fetch email ID: 1527
+2025-09-09 10:01:16,309 INFO \u0110ang fetch email ID: 1529
+2025-09-09 10:01:17,305 INFO \u0110ang fetch email ID: 1532
+2025-09-09 10:01:18,321 INFO \u0110ang fetch email ID: 1535
+2025-09-09 10:01:19,311 INFO \u0110ang fetch email ID: 1536
+2025-09-09 10:01:20,298 INFO \u0110ang fetch email ID: 1537
+2025-09-09 10:01:21,282 INFO \u0110ang fetch email ID: 1538
+2025-09-09 10:01:22,404 INFO \u0110ang fetch email ID: 1539
+2025-09-09 10:01:23,404 INFO \u0110ang fetch email ID: 1544
+2025-09-09 10:01:24,398 INFO \u0110ang fetch email ID: 1545
+2025-09-09 10:01:25,392 INFO \u0110ang fetch email ID: 1546
+2025-09-09 10:01:26,395 INFO \u0110ang fetch email ID: 1554
+2025-09-09 10:01:27,415 INFO \u0110ang fetch email ID: 1558
+2025-09-09 10:01:28,399 INFO \u0110ang fetch email ID: 1559
+2025-09-09 10:01:29,403 INFO \u0110ang fetch email ID: 1560
+2025-09-09 10:01:30,396 INFO \u0110ang fetch email ID: 1565
+2025-09-09 10:01:31,535 INFO \u0110ang fetch email ID: 1566
+2025-09-09 10:01:32,519 INFO \u0110ang fetch email ID: 1567
+2025-09-09 10:01:33,511 INFO \u0110ang fetch email ID: 1578
+2025-09-09 10:01:34,486 INFO \u0110ang fetch email ID: 1586
+2025-09-09 10:01:35,583 INFO \u0110ang fetch email ID: 1587
+2025-09-09 10:01:36,574 INFO \u0110ang fetch email ID: 1589
+2025-09-09 10:01:37,555 INFO \u0110ang fetch email ID: 1602
+2025-09-09 10:01:38,548 INFO \u0110ang fetch email ID: 1617
+2025-09-09 10:01:39,524 INFO \u0110ang fetch email ID: 1628
+2025-09-09 10:01:40,509 INFO \u0110ang fetch email ID: 1629
+2025-09-09 10:01:41,511 INFO \u0110ang fetch email ID: 1630
+2025-09-09 10:01:42,489 INFO \u0110ang fetch email ID: 1635
+2025-09-09 10:01:43,473 INFO \u0110ang fetch email ID: 1636
+2025-09-09 10:01:44,507 INFO \u0110ang fetch email ID: 1639
+2025-09-09 10:01:45,496 INFO \u0110ang fetch email ID: 1647
+2025-09-09 10:01:46,493 INFO \u0110ang fetch email ID: 1648
+2025-09-09 10:01:47,478 INFO \u0110ang fetch email ID: 1649
+2025-09-09 10:01:48,469 INFO \u0110ang fetch email ID: 1651
+2025-09-09 10:01:49,466 INFO \u0110ang fetch email ID: 1660
+2025-09-09 10:01:50,474 INFO \u0110ang fetch email ID: 1661
+2025-09-09 10:01:51,470 INFO \u0110ang fetch email ID: 1663
+2025-09-09 10:01:52,477 INFO \u0110ang fetch email ID: 1669
+2025-09-09 10:01:53,484 INFO \u0110ang fetch email ID: 1695
+2025-09-09 10:02:05,204 INFO \u0110ang fetch email ID: 1701
+2025-09-09 10:02:06,487 INFO \u0110ang fetch email ID: 1702
+2025-09-09 10:02:07,484 INFO \u0110ang fetch email ID: 1724
+2025-09-09 10:02:08,520 INFO \u0110ang fetch email ID: 1726
+2025-09-09 10:02:09,544 INFO \u0110ang fetch email ID: 1727
+2025-09-09 10:02:10,554 INFO \u0110ang fetch email ID: 1728
+2025-09-09 10:02:11,565 INFO \u0110ang fetch email ID: 1729
+2025-09-09 10:02:12,572 INFO \u0110ang fetch email ID: 1730
+2025-09-09 10:02:13,598 INFO \u0110ang fetch email ID: 1736
+2025-09-09 10:02:14,625 INFO \u0110ang fetch email ID: 1751
+2025-09-09 10:02:15,637 INFO \u0110ang fetch email ID: 1752
+2025-09-09 10:02:16,638 INFO \u0110ang fetch email ID: 1754
+2025-09-09 10:02:17,648 INFO \u0110ang fetch email ID: 1755
+2025-09-09 10:02:18,665 INFO \u0110ang fetch email ID: 1758
+2025-09-09 10:02:19,677 INFO \u0110ang fetch email ID: 1776
+2025-09-09 10:02:20,680 INFO \u0110ang fetch email ID: 1777
+2025-09-09 10:02:21,691 INFO \u0110ang fetch email ID: 1778
+2025-09-09 10:02:22,704 INFO \u0110ang fetch email ID: 1779
+2025-09-09 10:02:23,748 INFO \u0110ang fetch email ID: 1780
+2025-09-09 10:02:24,761 INFO \u0110ang fetch email ID: 1784
+2025-09-09 10:02:25,764 INFO \u0110ang fetch email ID: 1786
+2025-09-09 10:02:26,793 INFO \u0110ang fetch email ID: 1791
+2025-09-09 10:02:27,797 INFO \u0110ang fetch email ID: 1793
+2025-09-09 10:02:28,808 INFO \u0110ang fetch email ID: 1794
+2025-09-09 10:02:29,807 INFO \u0110ang fetch email ID: 1816
+2025-09-09 10:02:30,829 INFO \u0110ang fetch email ID: 1825
+2025-09-09 10:02:31,843 INFO \u0110ang fetch email ID: 1826
+2025-09-09 10:02:32,841 INFO \u0110ang fetch email ID: 1830
+2025-09-09 10:02:33,852 INFO \u0110ang fetch email ID: 1838
+2025-09-09 10:02:34,877 INFO \u0110ang fetch email ID: 1844
+2025-09-09 10:02:35,882 INFO \u0110ang fetch email ID: 1852
+2025-09-09 10:02:36,877 INFO \u0110ang fetch email ID: 1862
+2025-09-09 10:02:37,875 INFO \u0110ang fetch email ID: 1868
+2025-09-09 10:02:38,884 INFO \u0110ang fetch email ID: 1880
+2025-09-09 10:02:39,891 INFO \u0110ang fetch email ID: 1881
+2025-09-09 10:02:40,909 INFO \u0110ang fetch email ID: 1890
+2025-09-09 10:02:41,994 INFO \u0110ang fetch email ID: 1897
+2025-09-09 10:02:42,993 INFO \u0110ang fetch email ID: 1898
+2025-09-09 10:02:44,010 INFO \u0110ang fetch email ID: 1905
+2025-09-09 10:02:45,025 INFO \u0110ang fetch email ID: 1906
+2025-09-09 10:02:46,036 INFO \u0110ang fetch email ID: 1917
+2025-09-09 10:02:47,029 INFO \u0110ang fetch email ID: 1927
+2025-09-09 10:02:48,049 INFO \u0110ang fetch email ID: 1941
+2025-09-09 10:02:49,056 INFO \u0110ang fetch email ID: 1944
+2025-09-09 10:02:50,069 INFO \u0110ang fetch email ID: 1945
+2025-09-09 10:02:51,073 INFO \u0110ang fetch email ID: 1974
+2025-09-09 10:02:52,075 INFO \u0110ang fetch email ID: 1989
+2025-09-09 10:02:53,087 INFO \u0110ang fetch email ID: 1998
+2025-09-09 10:02:54,089 INFO \u0110ang fetch email ID: 2008
+2025-09-09 10:02:55,096 INFO \u0110ang fetch email ID: 2009
+2025-09-09 10:02:56,112 INFO \u0110ang fetch email ID: 2031
+2025-09-09 10:02:57,120 INFO \u0110ang fetch email ID: 2039
+2025-09-09 10:02:58,124 INFO \u0110ang fetch email ID: 2042
+2025-09-09 10:02:59,118 INFO \u0110ang fetch email ID: 2045
+2025-09-09 10:03:00,148 INFO \u0110ang fetch email ID: 2046
+2025-09-09 10:03:01,136 INFO \u0110ang fetch email ID: 2047
+2025-09-09 10:03:02,153 INFO \u0110ang fetch email ID: 2049
+2025-09-09 10:03:03,171 INFO \u0110ang fetch email ID: 2074
+2025-09-09 10:03:04,172 INFO \u0110ang fetch email ID: 2087
+2025-09-09 10:03:05,174 INFO \u0110ang fetch email ID: 2089
+2025-09-09 10:03:06,197 INFO \u0110ang fetch email ID: 2096
+2025-09-09 10:03:07,230 INFO \u0110ang fetch email ID: 2097
+2025-09-09 10:03:16,219 INFO \u0110ang fetch email ID: 2101
+2025-09-09 10:03:17,506 INFO \u0110ang fetch email ID: 2102
+2025-09-09 10:03:18,517 INFO \u0110ang fetch email ID: 2103
+2025-09-09 10:03:19,550 INFO \u0110ang fetch email ID: 2106
+2025-09-09 10:03:20,536 INFO \u0110ang fetch email ID: 2113
+2025-09-09 10:03:21,562 INFO \u0110ang fetch email ID: 2120
+2025-09-09 10:03:22,557 INFO \u0110ang fetch email ID: 2121
+2025-09-09 10:03:23,560 INFO \u0110ang fetch email ID: 2128
+2025-09-09 10:03:24,589 INFO \u0110ang fetch email ID: 2129
+2025-09-09 10:03:25,609 INFO \u0110ang fetch email ID: 2130
+2025-09-09 10:03:26,662 INFO \u0110ang fetch email ID: 2140
+2025-09-09 10:03:27,686 INFO \u0110ang fetch email ID: 2148
+2025-09-09 10:03:28,709 INFO \u0110ang fetch email ID: 2154
+2025-09-09 10:03:29,707 INFO \u0110ang fetch email ID: 2162
+2025-09-09 10:03:30,749 INFO \u0110ang fetch email ID: 2166
+2025-09-09 10:03:31,784 INFO \u0110ang fetch email ID: 2168
+2025-09-09 10:03:32,799 INFO \u0110ang fetch email ID: 2169
+2025-09-09 10:03:33,812 INFO \u0110ang fetch email ID: 2170
+2025-09-09 10:03:34,818 INFO \u0110ang fetch email ID: 2171
+2025-09-09 10:03:35,837 INFO \u0110ang fetch email ID: 2173
+2025-09-09 10:03:36,844 INFO \u0110ang fetch email ID: 2176
+2025-09-09 10:03:37,847 INFO \u0110ang fetch email ID: 2180
+2025-09-09 10:03:38,852 INFO \u0110ang fetch email ID: 2181
+2025-09-09 10:03:39,832 INFO \u0110ang fetch email ID: 2182
+2025-09-09 10:03:40,819 INFO \u0110ang fetch email ID: 2187
+2025-09-09 10:03:41,821 INFO \u0110ang fetch email ID: 2189
+2025-09-09 10:03:42,838 INFO \u0110ang fetch email ID: 2206
+2025-09-09 10:03:43,859 INFO \u0110ang fetch email ID: 2208
+2025-09-09 10:03:44,887 INFO \u0110ang fetch email ID: 2217
+2025-09-09 10:03:45,866 INFO \u0110ang fetch email ID: 2218
+2025-09-09 10:03:46,855 INFO \u0110ang fetch email ID: 2219
+2025-09-09 10:03:47,863 INFO \u0110ang fetch email ID: 2223
+2025-09-09 10:03:48,857 INFO \u0110ang fetch email ID: 2224
+2025-09-09 10:03:49,859 INFO \u0110ang fetch email ID: 2225
+2025-09-09 10:03:50,869 INFO \u0110ang fetch email ID: 2226
+2025-09-09 10:03:51,868 INFO \u0110ang fetch email ID: 2232
+2025-09-09 10:03:52,873 INFO \u0110ang fetch email ID: 2239
+2025-09-09 10:03:53,877 INFO \u0110ang fetch email ID: 2244
+2025-09-09 10:03:54,876 INFO \u0110ang fetch email ID: 2245
+2025-09-09 10:03:55,884 INFO \u0110ang fetch email ID: 2258
+2025-09-09 10:03:56,918 INFO \u0110ang fetch email ID: 2259
+2025-09-09 10:03:57,922 INFO \u0110ang fetch email ID: 2274
+2025-09-09 10:03:58,961 INFO \u0110ang fetch email ID: 2275
+2025-09-09 10:03:59,981 INFO \u0110ang fetch email ID: 2288
+2025-09-09 10:04:01,023 INFO \u0110ang fetch email ID: 2290
+2025-09-09 10:04:02,040 INFO \u0110ang fetch email ID: 2294
+2025-09-09 10:04:03,063 INFO \u0110ang fetch email ID: 2313
+2025-09-09 10:04:04,062 INFO \u0110ang fetch email ID: 2346
+2025-09-09 10:04:05,082 INFO \u0110ang fetch email ID: 2349
+2025-09-09 10:04:06,130 INFO \u0110ang fetch email ID: 2351
+2025-09-09 10:04:07,141 INFO \u0110ang fetch email ID: 2371
+2025-09-09 10:04:08,141 INFO \u0110ang fetch email ID: 2374
+2025-09-09 10:04:09,188 INFO \u0110ang fetch email ID: 2375
+2025-09-09 10:04:10,202 INFO \u0110ang fetch email ID: 2385
+2025-09-09 10:04:11,434 INFO \u0110ang fetch email ID: 2391
+2025-09-09 10:04:12,439 INFO \u0110ang fetch email ID: 2401
+2025-09-09 10:04:13,453 INFO \u0110ang fetch email ID: 2405
+2025-09-09 10:04:14,469 INFO \u0110ang fetch email ID: 2407
+2025-09-09 10:04:15,489 INFO \u0110ang fetch email ID: 2412
+2025-09-09 10:04:16,494 INFO \u0110ang fetch email ID: 2415
+2025-09-09 10:04:17,505 INFO \u0110ang fetch email ID: 2426
+2025-09-09 10:04:18,529 INFO \u0110ang fetch email ID: 2440
+2025-09-09 10:04:19,549 INFO \u0110ang fetch email ID: 2443
+2025-09-09 10:04:20,566 INFO \u0110ang fetch email ID: 2455
+2025-09-09 10:04:21,574 INFO \u0110ang fetch email ID: 2456
+2025-09-09 10:04:23,125 INFO \u0110ang fetch email ID: 2458
+2025-09-09 10:04:24,170 INFO \u0110ang fetch email ID: 2467
+2025-09-09 10:04:25,164 INFO \u0110ang fetch email ID: 2468
+2025-09-09 10:04:26,177 INFO \u0110ang fetch email ID: 2470
+2025-09-09 10:04:27,347 INFO \u0110ang fetch email ID: 2473
+2025-09-09 10:04:28,365 INFO \u0110ang fetch email ID: 2474
+2025-09-09 10:04:29,371 INFO \u0110ang fetch email ID: 2475
+2025-09-09 10:04:30,403 INFO \u0110ang fetch email ID: 2478
+2025-09-09 10:04:31,420 INFO \u0110ang fetch email ID: 2479
+2025-09-09 10:04:32,443 INFO \u0110ang fetch email ID: 2480
+2025-09-09 10:04:33,443 INFO \u0110ang fetch email ID: 2482
+2025-09-09 10:04:34,480 INFO \u0110ang fetch email ID: 2486
+2025-09-09 10:04:35,499 INFO \u0110ang fetch email ID: 2507
+2025-09-09 10:04:36,504 INFO \u0110ang fetch email ID: 2511
+2025-09-09 10:04:37,528 INFO \u0110ang fetch email ID: 2513
+2025-09-09 10:04:38,548 INFO \u0110ang fetch email ID: 2539
+2025-09-09 10:04:39,550 INFO \u0110ang fetch email ID: 2544
+2025-09-09 10:04:40,566 INFO \u0110ang fetch email ID: 2546
+2025-09-09 10:04:41,574 INFO \u0110ang fetch email ID: 2555
+2025-09-09 10:04:42,644 INFO \u0110ang fetch email ID: 2561
+2025-09-09 10:04:43,639 INFO \u0110ang fetch email ID: 2563
+2025-09-09 10:04:44,660 INFO \u0110ang fetch email ID: 2564
+2025-09-09 10:04:45,661 INFO \u0110ang fetch email ID: 2570
+2025-09-09 10:04:46,829 INFO \u0110ang fetch email ID: 2579
+2025-09-09 10:04:47,851 INFO \u0110ang fetch email ID: 2581
+2025-09-09 10:04:48,859 INFO \u0110ang fetch email ID: 2596
+2025-09-09 10:04:49,876 INFO \u0110ang fetch email ID: 2598
+2025-09-09 10:04:50,886 INFO \u0110ang fetch email ID: 2606
+2025-09-09 10:04:51,889 INFO \u0110ang fetch email ID: 2613
+2025-09-09 10:04:52,896 INFO \u0110ang fetch email ID: 2614
+2025-09-09 10:04:53,938 INFO \u0110ang fetch email ID: 2627
+2025-09-09 10:04:54,932 INFO \u0110ang fetch email ID: 2634
+2025-09-09 10:04:55,929 INFO \u0110ang fetch email ID: 2637
+2025-09-09 10:04:56,928 INFO \u0110ang fetch email ID: 2641
+2025-09-09 10:04:57,945 INFO \u0110ang fetch email ID: 2668
+2025-09-09 10:04:58,959 INFO \u0110ang fetch email ID: 2669
+2025-09-09 10:04:59,979 INFO \u0110ang fetch email ID: 2671
+2025-09-09 10:05:00,967 INFO \u0110ang fetch email ID: 2677
+2025-09-09 10:05:01,990 INFO \u0110ang fetch email ID: 2695
+2025-09-09 10:05:03,016 INFO \u0110ang fetch email ID: 2696
+2025-09-09 10:05:04,035 INFO \u0110ang fetch email ID: 2715
+2025-09-09 10:05:05,051 INFO \u0110ang fetch email ID: 2726
+2025-09-09 10:05:06,093 INFO \u0110ang fetch email ID: 2727
+2025-09-09 10:05:07,108 INFO \u0110ang fetch email ID: 2728
+2025-09-09 10:05:08,131 INFO \u0110ang fetch email ID: 2729
+2025-09-09 10:05:09,131 INFO \u0110ang fetch email ID: 2750
+2025-09-09 10:05:10,175 INFO \u0110ang fetch email ID: 2753
+2025-09-09 10:05:11,194 INFO \u0110ang fetch email ID: 2757
+2025-09-09 10:05:12,215 INFO \u0110ang fetch email ID: 2758
+2025-09-09 10:05:13,204 INFO \u0110ang fetch email ID: 2766
+2025-09-09 10:05:14,222 INFO \u0110ang fetch email ID: 2767
+2025-09-09 10:05:15,253 INFO \u0110ang fetch email ID: 2775
+2025-09-09 10:05:16,264 INFO \u0110ang fetch email ID: 2784
+2025-09-09 10:05:17,290 INFO \u0110ang fetch email ID: 2796
+2025-09-09 10:05:18,318 INFO \u0110ang fetch email ID: 2797
+2025-09-09 10:05:19,326 INFO \u0110ang fetch email ID: 2827
+2025-09-09 10:05:20,335 INFO \u0110ang fetch email ID: 2831
+2025-09-09 10:05:21,361 INFO \u0110ang fetch email ID: 2832
+2025-09-09 10:05:22,364 INFO \u0110ang fetch email ID: 2834
+2025-09-09 10:05:23,393 INFO \u0110ang fetch email ID: 2842
+2025-09-09 10:05:24,447 INFO \u0110ang fetch email ID: 2859
+2025-09-09 10:05:25,483 INFO \u0110ang fetch email ID: 2860
+2025-09-09 10:05:26,496 INFO \u0110ang fetch email ID: 2861
+2025-09-09 10:05:27,520 INFO \u0110ang fetch email ID: 2875
+2025-09-09 10:05:28,599 INFO \u0110ang fetch email ID: 2876
+2025-09-09 10:05:29,611 INFO \u0110ang fetch email ID: 2877
+2025-09-09 10:05:30,625 INFO \u0110ang fetch email ID: 2878
+2025-09-09 10:05:31,653 INFO \u0110ang fetch email ID: 2879
+2025-09-09 10:05:32,691 INFO \u0110ang fetch email ID: 2883
+2025-09-09 10:05:33,700 INFO \u0110ang fetch email ID: 2886
+2025-09-09 10:05:34,702 INFO \u0110ang fetch email ID: 2891
+2025-09-09 10:05:35,715 INFO \u0110ang fetch email ID: 2893
+2025-09-09 10:05:36,720 INFO \u0110ang fetch email ID: 2912
+2025-09-09 10:05:37,751 INFO \u0110ang fetch email ID: 2913
+2025-09-09 10:05:38,787 INFO \u0110ang fetch email ID: 2917
+2025-09-09 10:05:39,801 INFO \u0110ang fetch email ID: 2918
+2025-09-09 10:05:40,795 INFO \u0110ang fetch email ID: 2919
+2025-09-09 10:05:41,784 INFO \u0110ang fetch email ID: 2921
+2025-09-09 10:05:42,805 INFO \u0110ang fetch email ID: 2923
+2025-09-09 10:05:43,819 INFO \u0110ang fetch email ID: 2924
+2025-09-09 10:05:44,831 INFO \u0110ang fetch email ID: 2925
+2025-09-09 10:05:45,837 INFO \u0110ang fetch email ID: 2928
+2025-09-09 10:05:46,869 INFO \u0110ang fetch email ID: 2931
+2025-09-09 10:05:47,893 INFO \u0110ang fetch email ID: 2944
+2025-09-09 10:05:48,921 INFO \u0110ang fetch email ID: 2945
+2025-09-09 10:05:49,959 INFO \u0110ang fetch email ID: 2948
+2025-09-09 10:05:50,983 INFO \u0110ang fetch email ID: 2951
+2025-09-09 10:05:51,998 INFO \u0110ang fetch email ID: 2953
+2025-09-09 10:05:53,022 INFO \u0110ang fetch email ID: 2955
+2025-09-09 10:05:54,057 INFO \u0110ang fetch email ID: 2959
+2025-09-09 10:05:55,074 INFO \u0110ang fetch email ID: 2961
+2025-09-09 10:05:56,095 INFO \u0110ang fetch email ID: 2962
+2025-09-09 10:05:57,103 INFO \u0110ang fetch email ID: 2964
+2025-09-09 10:05:58,114 INFO \u0110ang fetch email ID: 2965
+2025-09-09 10:05:59,120 INFO \u0110ang fetch email ID: 2966
+2025-09-09 10:06:00,146 INFO \u0110ang fetch email ID: 2967
+2025-09-09 10:06:01,158 INFO \u0110ang fetch email ID: 2969
+2025-09-09 10:06:02,168 INFO \u0110ang fetch email ID: 2972
+2025-09-09 10:06:03,198 INFO \u0110ang fetch email ID: 2984
+2025-09-09 10:06:04,224 INFO \u0110ang fetch email ID: 2988
+2025-09-09 10:06:05,251 INFO \u0110ang fetch email ID: 2994
+2025-09-09 10:06:06,259 INFO \u0110ang fetch email ID: 2995
+2025-09-09 10:06:07,262 INFO \u0110ang fetch email ID: 2998
+2025-09-09 10:06:08,286 INFO \u0110ang fetch email ID: 2999
+2025-09-09 10:06:09,321 INFO \u0110ang fetch email ID: 3000
+2025-09-09 10:06:10,339 INFO \u0110ang fetch email ID: 3001
+2025-09-09 10:06:11,377 INFO \u0110ang fetch email ID: 3004
+2025-09-09 10:06:12,387 INFO \u0110ang fetch email ID: 3015
+2025-09-09 10:06:13,407 INFO \u0110ang fetch email ID: 3052
+2025-09-09 10:06:14,412 INFO \u0110ang fetch email ID: 3058
+2025-09-09 10:06:15,427 INFO \u0110ang fetch email ID: 3062
+2025-09-09 10:06:16,447 INFO \u0110ang fetch email ID: 3067
+2025-09-09 10:06:17,461 INFO \u0110ang fetch email ID: 3077
+2025-09-09 10:06:18,475 INFO \u0110ang fetch email ID: 3101
+2025-09-09 10:06:19,501 INFO \u0110ang fetch email ID: 3102
+2025-09-09 10:06:20,528 INFO \u0110ang fetch email ID: 3109
+2025-09-09 10:06:21,540 INFO \u0110ang fetch email ID: 3113
+2025-09-09 10:06:22,588 INFO \u0110ang fetch email ID: 3115
+2025-09-09 10:06:23,668 INFO \u0110ang fetch email ID: 3124
+2025-09-09 10:06:24,698 INFO \u0110ang fetch email ID: 3127
+2025-09-09 10:06:25,698 INFO \u0110ang fetch email ID: 3129
+2025-09-09 10:06:26,713 INFO \u0110ang fetch email ID: 3141
+2025-09-09 10:06:27,712 INFO \u0110ang fetch email ID: 3147
+2025-09-09 10:06:28,741 INFO \u0110ang fetch email ID: 3152
+2025-09-09 10:06:29,757 INFO \u0110ang fetch email ID: 3153
+2025-09-09 10:06:30,759 INFO \u0110ang fetch email ID: 3156
+2025-09-09 10:06:31,808 INFO \u0110ang fetch email ID: 3196
+2025-09-09 10:06:32,867 INFO \u0110ang fetch email ID: 3197
+2025-09-09 10:06:33,867 INFO \u0110ang fetch email ID: 3212
+2025-09-09 10:06:34,887 INFO \u0110ang fetch email ID: 3221
+2025-09-09 10:06:35,908 INFO \u0110ang fetch email ID: 3225
+2025-09-09 10:06:36,915 INFO \u0110ang fetch email ID: 3236
+2025-09-09 10:13:51,399 INFO [INBOX] FETCH email ID: 5611
+2025-09-09 10:13:52,495 INFO [INBOX] \u0110ã l\u01b0u PDF: In\473_TMA_89 - test.pdf
+2025-09-09 10:13:53,535 WARNING UID STORE l\u1ed7i (UID command error: BAD [b'Could not parse command']), fallback sequence STORE
+2025-09-09 10:13:53,924 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 1, 'emails_processed': 1, 'pdf_saved': 1, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 1, 'emails_processed': 1, 'pdf_saved': 1}]}
+2025-09-09 10:57:12,564 INFO [INBOX] Không có email UNSEEN t\u1eeb trungtamthongtinlucthuy@gmail.com.
+2025-09-09 10:57:12,599 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-09 12:49:38,045 INFO [INBOX] Không có email UNSEEN t\u1eeb trungtamthongtinlucthuy@gmail.com.
+2025-09-09 12:49:38,046 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-09 12:49:55,871 INFO [INBOX] Không có email UNSEEN t\u1eeb trungtamthongtinlucthuy@gmail.com.
+2025-09-09 12:49:55,872 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-09 12:50:19,094 INFO [INBOX] Không có email UNSEEN t\u1eeb trungtamthongtinlucthuy@gmail.com.
+2025-09-09 12:50:19,095 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-09 12:50:43,391 INFO [INBOX] FETCH email ID: 5648
+2025-09-09 12:50:44,210 INFO [INBOX] \u0110ã l\u01b0u PDF: In\PhieuGiaoHang_DHT-5598_1_2025-09-09 - \u0110\u01a1n hàng DHT-5598_1 - Thông báo giao hàng.pdf
+2025-09-09 12:50:45,315 WARNING UID STORE l\u1ed7i (UID command error: BAD [b'Could not parse command']), fallback sequence STORE
+2025-09-09 12:50:45,726 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 1, 'emails_processed': 1, 'pdf_saved': 1, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 1, 'emails_processed': 1, 'pdf_saved': 1}]}
+2025-09-09 12:51:20,690 INFO [INBOX] Không có email UNSEEN t\u1eeb vietngaitmode@gmail.com.
+2025-09-09 12:51:20,691 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-09 13:51:56,307 INFO [INBOX] FETCH email ID: 5648
+2025-09-09 13:51:56,977 INFO [INBOX] B\u1ecf qua (\u0111ã x\u1eed lý): <autogen-java-a6d614da-5730-48f2-bbc7-f10225ec8318@google.com>
+2025-09-09 13:51:57,837 WARNING UID STORE l\u1ed7i (UID command error: BAD [b'Could not parse command']), fallback sequence STORE
+2025-09-09 13:51:58,225 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 1, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 1, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:37:29,970 INFO [INBOX] Không có email UNSEEN t\u1eeb vietngaitmode@gmail.com.
+2025-09-10 11:37:29,971 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:37:37,503 INFO [INBOX] Không có email UNSEEN t\u1eeb vietngaitmode@gmail.com.
+2025-09-10 11:37:37,503 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:38:51,436 INFO [INBOX] Không có email UNSEEN t\u1eeb minhquanqni2004@gmail.com.
+2025-09-10 11:38:51,437 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:39:53,077 INFO [INBOX] Không có email UNSEEN t\u1eeb minhquanqni2004@gmail.com.
+2025-09-10 11:39:53,077 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:40:15,198 INFO [INBOX] Không có email UNSEEN t\u1eeb trungtamthongtinlucthuy@gmail.com.
+2025-09-10 11:40:15,199 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:40:36,048 INFO [INBOX] Không có email UNSEEN t\u1eeb vietngaitmode@gmail.com.
+2025-09-10 11:40:36,048 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:40:56,170 INFO [INBOX] Không có email UNSEEN t\u1eeb vietngaitmode@gmail.com.
+2025-09-10 11:40:56,171 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:41:12,054 INFO [INBOX] Không có email UNSEEN t\u1eeb vietngaitmode@gmail.com.
+2025-09-10 11:41:12,055 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:44:02,732 INFO [INBOX] Không có email UNSEEN t\u1eeb vietngaitmode@gmail.com.
+2025-09-10 11:44:02,732 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 0, 'emails_processed': 0, 'pdf_saved': 0}]}
+2025-09-10 11:44:22,477 INFO [INBOX] FETCH email ID: 5667
+2025-09-10 11:44:23,739 INFO [INBOX] \u0110ã l\u01b0u PDF: In\Test_PhieuXuatKho - Phi\u1ebfu Xu\u1ea5t Kho.pdf
+2025-09-10 11:44:24,852 WARNING UID STORE l\u1ed7i (UID command error: BAD [b'Could not parse command']), fallback sequence STORE
+2025-09-10 11:44:25,248 INFO [INBOX] FETCH email ID: 5668
+2025-09-10 11:44:26,246 INFO [INBOX] \u0110ã l\u01b0u PDF: In\Test_PhieuXuatKho - Phi\u1ebfu Xu\u1ea5t Kho(1).pdf
+2025-09-10 11:44:27,041 WARNING UID STORE l\u1ed7i (UID command error: BAD [b'Could not parse command']), fallback sequence STORE
+2025-09-10 11:44:27,455 INFO T\u1ed5ng k\u1ebft: {'emails_seen': 2, 'emails_processed': 2, 'pdf_saved': 2, 'by_mailbox': [{'mailbox': 'INBOX', 'emails_seen': 2, 'emails_processed': 2, 'pdf_saved': 2}]}
