@@ -1,0 +1,16 @@
+2025-09-15 13:28:35,876 [INFO] Khởi động Email PDF Downloader
+2025-09-15 13:28:35,878 [INFO] Chế độ chạy: Một lần
+2025-09-15 13:28:35,879 [INFO] === BẮT ĐẦU CRAWL PDF ===
+2025-09-15 13:28:35,879 [INFO] Kết nối IMAP server: imap.gmail.com
+2025-09-15 13:28:35,880 [INFO] Email: your_email@gmail.com
+2025-09-15 13:28:35,881 [INFO] Lọc từ sender: sender@gmail.com
+2025-09-15 13:28:35,881 [INFO] Mailboxes: ['INBOX']
+2025-09-15 13:28:36,523 [ERROR] Lỗi kết nối/điều khiển IMAP trong job()
+Traceback (most recent call last):
+  File "d:\Scripts\crawlPDF.py", line 382, in job
+    mail.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\miniconda3\Lib\imaplib.py", line 621, in login
+    raise self.error(dat[-1])
+imaplib.IMAP4.error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-09-15 13:28:36,700 [INFO] Email PDF Downloader đã dừng

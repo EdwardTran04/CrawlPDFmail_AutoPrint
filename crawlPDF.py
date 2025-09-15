@@ -39,12 +39,14 @@ MAILBOXES = ["INBOX"]
 
 # Thư mục tải PDF
 DOWNLOAD_DIR = Path("In")
+# Thư mục log
+LOG_DIR = Path("log")
 # File ghi các ID đã xử lý
 PROCESSED_IDS_FILE = Path("processed_msg_ids.json")
 # Log JSONL theo yêu cầu
-LOG_JSONL_FILE = Path("pdf_download_log.jsonl")
+LOG_JSONL_FILE = LOG_DIR / "pdf_download_log.jsonl"
 # Log text để vận hành
-LOG_FILE = "email_pdf_downloader.log"
+LOG_FILE = LOG_DIR / "email_pdf_downloader.log"
 
 # Lịch chạy (đặt RUN_CONTINUOUS=True để chạy vòng lặp mỗi INTERVAL_MINUTES phút)
 RUN_CONTINUOUS = False
@@ -56,15 +58,32 @@ socket.setdefaulttimeout(30)  # giây
 # (Tùy chọn) debug IMAP chi tiết
 imaplib.Debug = 0
 
-# Tạo thư mục tải nếu chưa có
+# Tạo thư mục tải và log nếu chưa có
 DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 # ================== LOGGING ==================
-logging.basicConfig(
-    filename=LOG_FILE,
-    level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(message)s"
-)
+# Cấu hình logging với file handler và console handler
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# Xóa handlers cũ nếu có
+for handler in logger.handlers[:]:
+    logger.removeHandler(handler)
+
+# File handler - ghi vào file log
+file_handler = logging.FileHandler(LOG_FILE, encoding='utf-8')
+file_handler.setLevel(logging.INFO)
+file_formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
+file_handler.setFormatter(file_formatter)
+logger.addHandler(file_handler)
+
+# Console handler - hiển thị trên console
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+console_formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
+console_handler.setFormatter(console_formatter)
+logger.addHandler(console_handler)
 
 
 # ================== TIỆN ÍCH ==================
@@ -353,9 +372,18 @@ def job():
     """Một lần chạy: kết nối, đăng nhập, quét, đóng kết nối."""
     mail = None
     try:
+        logging.info("=== BẮT ĐẦU CRAWL PDF ===")
+        logging.info(f"Kết nối IMAP server: {IMAP_SERVER}")
+        logging.info(f"Email: {EMAIL}")
+        logging.info(f"Lọc từ sender: {SENDER_FILTER_EMAIL}")
+        logging.info(f"Mailboxes: {MAILBOXES}")
+        
         mail = imaplib.IMAP4_SSL(IMAP_SERVER)
         mail.login(EMAIL, PASSWORD)
+        logging.info("Đăng nhập IMAP thành công")
+        
         totals = process_unseen_pdfs(mail)
+        logging.info(f"=== KẾT THÚC CRAWL PDF ===")
         logging.info(f"Tổng kết: {totals}")
         print("Done. Summary:", totals)
     except Exception:
@@ -365,6 +393,7 @@ def job():
             try:
                 try:
                     mail.close()
+                    logging.info("Đóng kết nối IMAP")
                 except Exception:
                     pass
                 mail.logout()
@@ -374,7 +403,10 @@ def job():
 
 # ================== CHẠY ==================
 if __name__ == "__main__":
+    logging.info("Khởi động Email PDF Downloader")
+    logging.info(f"Chế độ chạy: {'Liên tục' if RUN_CONTINUOUS else 'Một lần'}")
     if RUN_CONTINUOUS:
+        logging.info(f"Khoảng thời gian: {INTERVAL_MINUTES} phút")
         schedule.every(INTERVAL_MINUTES).minutes.do(job)
         job()  # chạy ngay lần đầu
         while True:
@@ -382,3 +414,4 @@ if __name__ == "__main__":
             time.sleep(1)
     else:
         job()
+    logging.info("Email PDF Downloader đã dừng")
